@@ -1,0 +1,51 @@
+@media screen and(max-width: 768px) {
+    .main{
+
+        header{
+
+            img{
+                width: 10em;
+            }
+        }
+
+        .container{
+            height: fit-content;
+            
+            img{
+                height: 200px;
+            }
+
+            .text-button-holder{
+
+                .title{
+                    font-size: 25px;
+                }
+
+                .title-2{
+                    font-size: 23px;
+                }
+
+                .paragraph{
+                    font-size: 16px;
+                }
+
+                .button-link-holder{
+                    border-radius: 25px;
+                    margin-top: 10px;
+                    width: 11em;
+
+                    .button-link{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .attribution{
+            font-size: 19px;
+        }
+    }
+}

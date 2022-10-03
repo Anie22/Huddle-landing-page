@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px){
+    .main{
+
+        header{
+            margin: 0;
+
+            img{
+                height: 57px;
+                width: 260px;
+                margin: 0;
+                
+            }
+        }
+
+        .container{
+            padding: 0;
+
+            img{
+                width: 23em;
+                height: 250px;
+            }
+
+            .text-button-holder{
+                padding: 20px;
+                margin-left: 10px;
+                width: 30em;
+
+                .title{
+                    font-size: 2em;
+                }
+
+                .title-2{
+                    font-size: 1.70em;
+                }
+
+                .paragraph{
+                    padding: 16px 0 12px 6px;
+                }
+            }
+        }
+    }
+}

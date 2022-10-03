@@ -1,0 +1,12 @@
+$violet: hsl(257, 40%, 49%);
+$softmagenta: hsl(300, 69%, 71%);
+$white: hsl(0, 0%, 100%);
+
+
+@import 'general';
+@import 'main';
+@import 'media1024px';
+@import 'media768px';
+@import 'media425px';
+@import 'media375px';
+@import 'media320px';

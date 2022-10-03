@@ -1,0 +1,42 @@
+@media screen and (max-width: 375px){
+    .main{
+        background: url(../img/bg-mobile.svg);
+        background-color: $violet;
+        background-size: cover;
+        height: auto;
+        padding: 2em;
+        margin-bottom: 2em;
+        overflow: auto;
+        margin-bottom: 0.5em;
+
+        .container{
+            margin: 5px 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img{
+             height: 15em;
+             width: 20em;   
+             display: block;
+            }
+
+            .text-button-holder{
+                width: 18.4em;
+                padding: 0;
+                margin: 5px 0 5px 0;
+
+                .button-link-holder{
+                    margin: 12px 0 12px 8em;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .attribution{
+            font-size: 13px;
+        }
+    }
+}
